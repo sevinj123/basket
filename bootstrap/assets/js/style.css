@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* i{
+    font-size: 20px;
+} */
+nav{
+    box-shadow: 0 0 0 0;
+}
+.btn1{
+    background-color: white;
+    border: 1px solid orange;
+    color: orange;
+    border-radius: 5px;
+    padding: 1px 7px;
+}
+.btn1:hover{
+    background-color: orange;
+    color: white;
+    transition: 0.4s;
+}
+ul li a img{
+    width: 15%;
+    
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+ul .az{
+    width: 40%;
+}
+ul li{
+    margin:7px;
+}
+
+.second-part{
+    display: flex;
+    justify-content: flex-end;
+}
+/* .second-part li{
+    border-right: 1px solid gray;
+} */
+.logo{
+    width:20%;
+}
+.btn2{
+    background-color: rgb(87, 199, 87);
+    color: white;
+    border: 1px  solid white;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.col-4 img{
+    margin-right: 10px;
+}
+.inp{
+    width: 100%;
+   
+  
+}
+.la-search{
+   right: 16px;
+   top: 6px;
+
+}
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+.icons p{
+    margin-right: 23px;
+
+
+}
+.btn3{
+    border: 1px solid green;
+    color: green;
+    border-radius: 6px;
+}
+.btn3:hover{
+    background-color: green;
+    color: white;
+    
+}
+.card-main{
+    display: flex;
+    flex-direction: column;
+}
+.btn4{
+    width: 50%;
+    margin: 3px 0px;
+    background-color: rgb(163, 199, 247);
+    color: rgb(59, 48, 223);
+}
+.btn5{
+    width: 90%;
+    margin: 3px 0px;
+}
+.btn6{
+    width: 50%;
+    margin: 3px 0px;
+    border: 1px solid rgb(49, 102, 216);
+    color: rgb(27, 79, 158);
+}
+.btn7{
+    background-color:green; 
+    color:white ;
+    
+}
+.btn7:hover{
+    background-color:white;
+    color:green ;
+    transition: 0.3s;
+}
+.la-shopping-cart{
+    color: black;
+    font-size: 20px;
+}
